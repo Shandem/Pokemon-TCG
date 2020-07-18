@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="apple-touch-icon" sizes="57x57" href="./assets/148d4070aa944067174c8e5bf6ba813f.ico/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./assets/148d4070aa944067174c8e5bf6ba813f.ico/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./assets/148d4070aa944067174c8e5bf6ba813f.ico/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./assets/148d4070aa944067174c8e5bf6ba813f.ico/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./assets/148d4070aa944067174c8e5bf6ba813f.ico/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./assets/148d4070aa944067174c8e5bf6ba813f.ico/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./assets/148d4070aa944067174c8e5bf6ba813f.icoapple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./assets/148d4070aa944067174c8e5bf6ba813f.ico/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./assets/148d4070aa944067174c8e5bf6ba813f.ico/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./assets/148d4070aa944067174c8e5bf6ba813f.ico/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./assets/148d4070aa944067174c8e5bf6ba813f.icofavicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./assets/148d4070aa944067174c8e5bf6ba813f.ico/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./assets/148d4070aa944067174c8e5bf6ba813f.ico/favicon-16x16.png">
+        <link rel="manifest" href="./assets/148d4070aa944067174c8e5bf6ba813f.ico/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="./assets/148d4070aa944067174c8e5bf6ba813f.ico/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <title>Pokemon Game Board</title>
+        
+        <link rel='stylesheet' href="game-board.css">
+
+    </head>
+    <body>
+        <div class="container-Pc">
+            <div id='pcCard1'>
+                <li>I</li>
+            </div>
+            <div id='pcCard2'>
+                <li>Choose</li>
+            </div>
+            <div id='pcCard3'>
+                <li>You!</li>
+            </div>
+        </div>
+
+        <div class="scoreContainer">
+        </div>
+
+        <div class="container-player">
+            <div id='playerCard1'>
+                <li class='cardOne'>I</li>
+            </div>
+            <div id='playerCard2'>
+                <li class= 'cardTwo'>Choose</li>
+            </div>
+            <div id='playerCard3'>
+                <li class='cardThree'>You!</li>
+            </div>
+        </div>
+
+        <div class="actionContainer">
+            <h1 id='score'>NPC score !</h1>
+            <button id="one">Deal Cards</button>
+        </div>
+
+        <div class="cardPickContainer">
+            <button id="two">Choose Card 1</button>
+            <button id="three">Choose Card 2</button>
+            <button id="four">Choose Card 3</button>
+        </div>
+
+        <div class="battleContainer">
+            <h1>Your Score !</h1>
+            <button id="five">Battle!</button>
+        </div>
+        <div class="scoreContainer">
+            
+            <p>How to play! <br><br>Click Deal Cards to start the game. You will be
+                given 3 cards at random.<br> <br> *Each card can only attack the card across from it.
+                After each round, that card for YOU and the NPC are swapped out for new ones.<br> *Click Deal Cards after each choice to get your new cards.<br><br>
+                The Goal: 1st to 5 points wins. *Tip* Force a tie fight, it gives no points BUT it will let you swap 
+                out that card for new one!
+            </p>
+            
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+        <script src="./game-board.js"></script>
+    </body>
+</html>

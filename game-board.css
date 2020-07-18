@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+@font-face {font-family: "Pokemon"; src: url("//db.onlinewebfonts.com/t/a222402127a0453c817a6cf4c3d9810b.eot"); 
+    src: url("//db.onlinewebfonts.com/t/a222402127a0453c817a6cf4c3d9810b.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/a222402127a0453c817a6cf4c3d9810b.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/a222402127a0453c817a6cf4c3d9810b.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/a222402127a0453c817a6cf4c3d9810b.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/a222402127a0453c817a6cf4c3d9810b.svg#Pokemon") format("svg"); 
+}
+body{
+    background: url('./assets/pika.jpg'), #FFCA00;
+    background-size: 1689px, cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    font-family: Pokemon;
+    
+}
+.container-Pc{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    position: relative;
+    top: 20px;
+    height: 260px;
+    width: 1650px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #000;
+    color: #6B2021;
+    letter-spacing: 7px;
+    text-align: center;
+    
+
+}
+#pcCard1, #pcCard2, #pcCard3, #playerCard1, #playerCard2, #playerCard3{
+    width: 185px;
+    height:260px; 
+    border:1px solid #000; 
+    background: radial-gradient(circle at 100px 100px, #B8494B, #000);
+    
+    background-size: cover;
+    opacity: .7;
+}
+
+.container-player{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    position: relative;
+    top: 390px;
+    height: 260px;
+    width: 1650px;
+
+}
+.cardPickContainer{
+    display: flex;
+    
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: row;
+    position: relative;
+    height: 40px;
+    width: 1650px;
+    bottom: 60px;
+}
+button, h1{
+    background-color: transparent;
+    font-family: Pokemon;
+    font-size: 25px;
+    color: #5A8542;
+    text-shadow: 1px 2px 2px #000;
+    letter-spacing: 4px;
+}
+.battleContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    left: 1470px; bottom: 330px;
+    justify-content: space-between;
+    width: 180px;
+    height: 160px;
+    text-align: right;
+}
+.scoreContainer{
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    width: 500px;
+    bottom: 550px;
+}
+.actionContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 170px;
+    height: 150px;
+    bottom: 100px; left: 15px;
+}
+p{
+    position: relative;
+    width: 700px;
+    left: 550px; bottom: 635px;
+    color: #5A8542;
+    letter-spacing: 4px;
+    word-spacing: 1px;
+    font-size: 20px;
+}
+li{
+    list-style: none;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #000;
+    color: #6B2021;
+    letter-spacing: 7px;
+    text-align: center;
+    height:260px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+

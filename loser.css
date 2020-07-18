@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+@import url(//db.onlinewebfonts.com/c/f4d1593471d222ddebd973210265762a?family=Pokemon);
+@font-face {font-family: "Pokemon"; src: url("//db.onlinewebfonts.com/t/a222402127a0453c817a6cf4c3d9810b.eot"); 
+    src: url("//db.onlinewebfonts.com/t/a222402127a0453c817a6cf4c3d9810b.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/a222402127a0453c817a6cf4c3d9810b.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/a222402127a0453c817a6cf4c3d9810b.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/a222402127a0453c817a6cf4c3d9810b.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/a222402127a0453c817a6cf4c3d9810b.svg#Pokemon") format("svg"); 
+}
+
+body{
+    background-image: url(./assets/surprised\ pikachu.jpeg);
+    background-size: inherit;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y:  10em;
+    background-color: gray;
+
+}
+path {
+    fill: transparent;
+  }
+  
+  text {
+    fill: #C22A00;
+  }
+.words{
+    letter-spacing: 1px;
+    font-family: Pokemon;
+    font-size: 18px;
+    font-weight: 500;
+    text-shadow: 2px 2px 4px #000;
+}
+a{
+    z-index: 4;
+    position: relative;
+    font-family: Pokemon;
+    float: right;
+    font-size: 60px;
+    color: #5A8542;
+    text-shadow: 1px 2px 2px #000;
+    letter-spacing: 5px;
+    text-decoration: none;
+    top: 100px; right: 90px;
+}
